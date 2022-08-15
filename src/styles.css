@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+
+.general-cont{
+    border: 1px rgb(221, 219, 219) solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
