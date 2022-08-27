@@ -1,7 +1,12 @@
 
+body{
+    min-height: 80%;
+}
 .general-cont{
+    min-height: fit-content;
     border: 1px rgb(221, 219, 219) solid;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
+    box-shadow: 2px 2px 3px gray;
 }

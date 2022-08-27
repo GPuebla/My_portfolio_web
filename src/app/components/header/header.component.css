@@ -4,7 +4,7 @@
     object-fit: cover;
     padding: 0;
     margin: 0;
-    position:relative;
+    border-radius: 5px 5px 0 0;
 }
 
 .img_perfil{
@@ -13,19 +13,31 @@
     border-radius: 50%;
     position: relative; 
     bottom: 100px;
-    left: 0.5%;
+    left: 50px;
 }
 
 .img_container{
+    min-height: 90%;
     width: 100%;
-    padding: 0;
-    margin: 0;
+    padding: 1px;
+    margin: 1px;
 }
 
 .info_perfil{
-    margin: 0;
-    padding: 0;
-    border: 1px solid red;
-    height: 300px;
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+    grid-template-rows: auto;
+    /* margin-bottom: 10px; */
+    height: 30vh;
+    bottom: 14vw;
     position: relative;
+
+}
+.text_titulo{
+    height: 28vh;
+    width: 300px;
+    margin: 0px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
 }
