@@ -5,16 +5,19 @@
     padding: 0;
     margin: 0;
     border-radius: 5px 5px 0 0;
+    
 }
 
 .img_perfil{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    position: relative; 
+    position: absolute; 
     bottom: 100px;
-    left: 50px;
+    left:4%;
 }
+
+
 
 .img_container{
     min-height: 90%;
@@ -24,20 +27,24 @@
 }
 
 .info_perfil{
+    width:100%;
+    height:30vh;
     display: grid;
     grid-template-columns: 3fr 10fr;
     grid-template-rows: auto;
-    /* margin-bottom: 10px; */
-    height: 30vh;
-    bottom: 14vw;
-    position: relative;
-
+    gap: 0px;
+    border: 1px solid blue;
 }
+
+.info_perfil div{
+    margin: 10px 5px;
+}
+
 .text_titulo{
-    height: 28vh;
-    width: 300px;
-    margin: 0px;
+    height: 100%;
     display: flex;
     align-items: flex-end;
     text-align: center;
-}
+    border: red solid 1px;
+} 
+
